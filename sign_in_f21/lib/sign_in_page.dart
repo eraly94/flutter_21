@@ -46,8 +46,11 @@ class SignInPage extends StatelessWidget {
               decoration: InputDecoration(
                 filled: true,
                 fillColor: Colors.white,
-                prefixIcon: Image.asset(
-                  'assets/images/phone.png',
+                prefixIcon: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 30),
+                  child: Image.asset(
+                    'assets/images/phone.png',
+                  ),
                 ),
                 hintText: 'Your phone number',
               ),
@@ -57,10 +60,13 @@ class SignInPage extends StatelessWidget {
               decoration: InputDecoration(
                 filled: true,
                 fillColor: Colors.white,
-                prefixIcon: Image.asset(
-                  'assets/images/mail.png',
+                prefixIcon: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 25),
+                  child: Image.asset(
+                    'assets/images/mail.png',
+                  ),
                 ),
-                hintText: 'Your phone number',
+                hintText: 'Your email address',
               ),
             )
           ],
