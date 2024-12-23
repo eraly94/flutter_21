@@ -1,21 +1,24 @@
-import 'package:quiz_app_ui/quiz_page.dart';
-
-class QuizModel {
-  QuizModel({
-    required this.question,
-    required this.answer,
-  });
+class Quize {
+  Quize({required this.question, required this.answer});
   final String question;
   final bool answer;
 }
 
-QuizModel quizModel1 =
-    QuizModel(question: 'Кыргызстанда 7 дубан бар', answer: true);
-QuizModel quizModel2 =
-    QuizModel(question: 'Кракодил бакка чыгат', answer: false);
-QuizModel quizModel3 =
-    QuizModel(question: 'Жеки Чан Кытайлык актер', answer: true);
-QuizModel quizModel4 = QuizModel(
-    question: 'Dart Apple компаниясы тарабынан иштелип чыккан', answer: false);
+Quize quize1 = Quize(question: "Кыргызстанда 7 дубан бар", answer: true);
+Quize quize2 = Quize(question: "Кракодил бакка чыгат", answer: false);
+Quize quize3 = Quize(question: "Джеки Чан Ганг-Конгтун тургуну", answer: true);
+Quize quize4 = Quize(
+    question: "Dart Майкрасофт тарабынан иштелип чыкканбы", answer: false);
+Quize quize5 = Quize(question: "Кумшекер таттуу", answer: true);
+Quize quize6 = Quize(question: "Кумшекер таттуу эмес", answer: false);
+Quize quize7 = Quize(question: "Туз таттуу", answer: true);
 
-List<QuizModel> quizList = [quizModel1, quizModel2, quizModel3, quizModel4];
+List<Quize> quizeList = [
+  quize1,
+  quize2,
+  quize3,
+  quize4,
+  quize5,
+  quize6,
+  quize7,
+];
