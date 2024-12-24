@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                     setState(() {});
                   },
-                  child: Text('Баштоо'))
+                  child: const Text('Баштоо'))
             ],
           );
         });
@@ -87,17 +87,17 @@ class _MyHomePageState extends State<MyHomePage> {
             Questions(
               text: quizeList[questionNumber].question,
             ),
-            SizedBox(height: 50),
+            const SizedBox(height: 50),
             CustomButton(
                 text: 'Туура',
-                color: Color(0xff4cb050),
+                color: const Color(0xff4cb050),
                 onPressed: () {
                   questionAnswer(true);
                 }),
             const SizedBox(height: 30),
             CustomButton(
               text: 'Туура эмес',
-              color: Color(0xffef443a),
+              color: const Color(0xffef443a),
               onPressed: () {
                 questionAnswer(false);
               },

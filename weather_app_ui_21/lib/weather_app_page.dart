@@ -117,7 +117,7 @@ class _WeatherAppState extends State<WeatherApp> {
                   children: [
                     RichText(
                       text: TextSpan(
-                        text: '$weatherInfo',
+                        text: weatherInfo,
                         style: AppTextStyl.tempStyle,
                         children: <InlineSpan>[
                           WidgetSpan(
@@ -133,7 +133,7 @@ class _WeatherAppState extends State<WeatherApp> {
                       ),
                     ),
                     Text(
-                      '$mainWeather',
+                      mainWeather,
                       style: AppTextStyl.tempNameStyle,
                     ),
                   ],

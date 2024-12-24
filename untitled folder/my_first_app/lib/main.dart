@@ -52,8 +52,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               width: 300,
               height: 300,
-              color: Color.fromARGB(255, 25, 164, 62),
-              child: Center(
+              color: const Color.fromARGB(255, 25, 164, 62),
+              child: const Center(
                 child: Text(
                   "Сиз бул баскычты мынча жолу бастыңыз:",
                   style: TextStyle(
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
-            Icon(
+            const Icon(
               Icons.fire_extinguisher,
               size: 50,
               color: Colors.red,

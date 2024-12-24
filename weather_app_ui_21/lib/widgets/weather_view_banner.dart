@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 class WeatherViewBanner extends StatelessWidget {
   const WeatherViewBanner({
-    Key? key,
+    super.key,
     required this.image,
     required this.title,
     required this.value,
-  }) : super(key: key);
+  });
   final String image;
   final String title;
   final String value;
