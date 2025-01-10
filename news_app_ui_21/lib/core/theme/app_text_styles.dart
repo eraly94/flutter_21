@@ -13,4 +13,9 @@ class AppTextStyles {
     fontWeight: FontWeight.w500,
     color: Colors.black,
   );
+  static const linkText = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w500,
+    color: Colors.blue,
+  );
 }
